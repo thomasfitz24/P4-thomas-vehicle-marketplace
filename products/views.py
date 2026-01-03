@@ -5,9 +5,15 @@ from .models import Product, Category
 def product_list(request):
     products = Product.objects.filter(is_available=True)
     categories = Category.objects.all()
+
+    category_slug = request.GET.get("category")
+    if category_slug:
+        products = products.filter(category__slug=category_slug)
+
     context = {
         "products": products,
         "categories": categories,
+        "current_category": category_slug,
     }
     return render(request, "products/product_list.html", context)
 
