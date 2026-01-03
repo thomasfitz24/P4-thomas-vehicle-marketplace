@@ -253,3 +253,15 @@ button {
 .product-details li {
     margin-bottom: 0.5rem;
 }
+
+.product-description {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 1.5rem;
+}
+
+.product-description h3 {
+    margin-top: 0;
+}
