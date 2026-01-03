@@ -11,6 +11,10 @@
 
 <p>{{ product.description }}</p>
 
+<a href="{% url 'checkout:buy' product.id %}">
+    <button>Buy Now</button>
+</a>
+
 <p>
     <a href="{% url 'products:product_list' %}">← Back to listings</a>
 </p>
