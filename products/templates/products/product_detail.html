@@ -5,32 +5,36 @@
 {% block content %}
 <div class="product-detail">
 
+    <!-- IMAGE SECTION -->
     <div class="product-detail-image">
         {% if product.image %}
             <img src="{{ product.image.url }}" alt="{{ product.name }}">
         {% endif %}
     </div>
 
-    <div class="product-detail-info">
+    <!-- BUY SECTION -->
+    <section class="product-purchase">
         <h2>{{ product.name }}</h2>
-
         <p class="detail-price">£{{ product.price }}</p>
-
-        <ul class="detail-specs">
-            <li><strong>Year:</strong> {{ product.year }}</li>
-            <li><strong>Mileage:</strong> {{ product.mileage }} miles</li>
-            <li><strong>Category:</strong> {{ product.category.name }}</li>
-        </ul>
 
         <a href="{% url 'checkout:buy' product.id %}" class="button">
             Buy Vehicle
         </a>
+    </section>
 
-        <p class="back-link">
-            <a href="{% url 'products:product_list' %}">← Back to vehicles</a>
-        </p>
-    </div>
+    <!-- DETAILS SECTION -->
+    <section class="product-details">
+        <h3>Vehicle Details</h3>
+        <ul>
+            <li><strong>Year:</strong> {{ product.year }}</li>
+            <li><strong>Mileage:</strong> {{ product.mileage }} miles</li>
+            <li><strong>Category:</strong> {{ product.category.name }}</li>
+        </ul>
+    </section>
+
+    <p class="back-link">
+        <a href="{% url 'products:product_list' %}">← Back to vehicles</a>
+    </p>
 
 </div>
 {% endblock %}
-
