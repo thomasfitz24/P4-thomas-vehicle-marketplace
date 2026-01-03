@@ -1,23 +1,33 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Product, Category
 from django.contrib.auth.decorators import login_required, user_passes_test
+from django.db import models
 
 
 def staff_check(user):
     return user.is_staff
+
 
 def product_list(request):
     products = Product.objects.filter(is_available=True)
     categories = Category.objects.all()
 
     category_slug = request.GET.get("category")
+    query = request.GET.get("q")
+
     if category_slug:
         products = products.filter(category__slug=category_slug)
+
+    if query:
+        products = products.filter(
+            models.Q(name__icontains=query) | models.Q(description__icontains=query)
+        )
 
     context = {
         "products": products,
         "categories": categories,
         "current_category": category_slug,
+        "query": query,
     }
     return render(request, "products/product_list.html", context)
 

@@ -5,6 +5,13 @@
 {% block content %}
 <h2>Available Vehicles</h2>
 
+<form method="get">
+    <input type="text" name="q" placeholder="Search vehicles..." value="{{ query|default:'' }}">
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
 <nav>
     <strong>Categories:</strong>
     <a href="{% url 'products:product_list' %}">All</a>
