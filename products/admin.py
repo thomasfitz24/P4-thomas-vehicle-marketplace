@@ -9,7 +9,6 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 @admin.register(Product)
-@admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("name",)}
     list_display = ("name", "price", "year", "is_available")
