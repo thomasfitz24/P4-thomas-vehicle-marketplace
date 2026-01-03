@@ -1,6 +1,10 @@
 from django.shortcuts import render, get_object_or_404
 from .models import Product, Category
+from django.contrib.auth.decorators import login_required, user_passes_test
 
+
+def staff_check(user):
+    return user.is_staff
 
 def product_list(request):
     products = Product.objects.filter(is_available=True)
