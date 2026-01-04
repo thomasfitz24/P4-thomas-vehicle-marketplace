@@ -58,3 +58,24 @@ Accessibility considerations were included throughout development, including:
 - Alt text for vehicle images where applicable
 
 These considerations ensure the application is usable by a wide range of users and aligns with modern accessibility best practices.
+
+
+## User Stories
+
+### Visitor (Unauthenticated User)
+
+- As a visitor, I want to browse available vehicles so that I can view what is for sale without creating an account.
+- As a visitor, I want to search and filter vehicles by category so that I can quickly find relevant listings.
+- As a visitor, I want to view detailed information about a vehicle so that I can decide whether I want to purchase it.
+- As a visitor, I want to register or log in so that I can make a purchase.
+
+### Registered User
+
+- As a registered user, I want to log in securely so that I can access purchase functionality.
+- As a registered user, I want to complete a payment using Stripe so that I can safely buy a vehicle.
+- As a registered user, I want to see feedback after a successful or cancelled payment so that I understand the outcome of my transaction.
+
+### Admin User
+
+- As an admin user, I want to create, edit, and delete vehicles so that I can manage marketplace listings.
+- As an admin user, I want to manage categories so that vehicles are organised logically.
