@@ -265,3 +265,18 @@ The following manual tests were conducted:
 - Invalid inputs are rejected by Django’s built-in validation.
 
 No critical bugs were found during testing, and all core features function as intended.
+
+
+
+## Security
+
+Security considerations were applied throughout the development of the application.
+
+- Django’s built-in authentication and authorisation system is used to manage users securely.
+- Sensitive information such as the Django secret key and Stripe API keys are stored using environment variables.
+- No secret keys, passwords, or credentials are committed to the GitHub repository.
+- The admin interface is restricted to authorised staff users only.
+- All database interactions are handled through Django’s ORM to prevent direct database access.
+- User input is validated using Django forms and model validation to reduce the risk of invalid or malicious data.
+
+These measures help ensure the application is safe, secure, and suitable for deployment.
