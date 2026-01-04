@@ -104,7 +104,8 @@ Accessibility considerations were included throughout development, including:
 
 Wireframes were created during the planning stage to establish layout structure, navigation flow, and content hierarchy before development began.
 
-### Desktop Wireframes
+### Images
+
 
 ---
 
@@ -199,6 +200,11 @@ Wireframes were created during the planning stage to establish layout structure,
 * Secure environment variable key storage
 * Success and cancellation pages
 
+##Images
+<img width="1284" height="1312" alt="Screenshot 2026-01-04 at 22 36 07" src="https://github.com/user-attachments/assets/b4d14b75-21a0-4541-a7d4-3ec85b2448f2" />
+<img width="1296" height="1290" alt="Screenshot 2026-01-04 at 22 33 13" src="https://github.com/user-attachments/assets/ab84e7e7-b13b-40bd-8797-c37903b40d44" />
+
+
 ---
 
 ## Testing
@@ -215,10 +221,16 @@ Wireframes were created during the planning stage to establish layout structure,
 ### Validation Testing
 
 * Required fields enforced
-* Invalid inputs rejected
 
 ### Images
-
+<img width="1373" height="1034" alt="Screenshot 2026-01-04 at 22 11 32" src="https://github.com/user-attachments/assets/332f5824-9fbe-406a-90ee-9d61ab7e9fd3" />
+<img width="543" height="931" alt="Screenshot 2026-01-04 at 22 23 21" src="https://github.com/user-attachments/assets/137da3a3-806a-425d-859d-c9767a551a09" />
+<img width="1187" height="820" alt="Screenshot 2026-01-04 at 22 23 11" src="https://github.com/user-attachments/assets/4b24c0ba-26fb-4c94-8287-a3f5bd3322b8" />
+<img width="1249" height="787" alt="Screenshot 2026-01-04 at 22 12 22" src="https://github.com/user-attachments/assets/ed8caa11-dda5-41c5-a940-5c903f2311cb" />
+<img width="1235" height="743" alt="Screenshot 2026-01-04 at 22 12 16" src="https://github.com/user-attachments/assets/8b499fa2-3220-42c9-ae61-a064207884a4" />
+<img width="349" height="536" alt="Screenshot 2026-01-04 at 22 12 06" src="https://github.com/user-attachments/assets/d9969e3a-5104-4627-bf8f-f20d0388c312" />
+<img width="362" height="647" alt="Screenshot 2026-01-04 at 22 11 59" src="https://github.com/user-attachments/assets/a51cb447-4b8f-47db-b7ed-f9f5faea95d7" />
+<img width="364" height="629" alt="Screenshot 2026-01-04 at 22 11 51" src="https://github.com/user-attachments/assets/dd664e44-a671-4ce6-8c7c-d573d31fb7ca" />
 
 ---
 
@@ -286,4 +298,39 @@ Git was used throughout the project to document the development process and trac
 * Add security considerations to README
 * Add technologies used section to README
 
-Screenshots of commit history can be found below.
+Screenshots for commit history can be found below.
+
+<img width="1047" height="870" alt="Screenshot 2026-01-03 at 23 31 21" src="https://github.com/user-attachments/assets/1b3ba787-9db8-48f5-af81-50691e2def10" />
+<img width="918" height="1233" alt="Screenshot 2026-01-03 at 23 18 18" src="https://github.com/user-attachments/assets/4850a06c-90e8-4f61-a7c3-600a2c41f6f0" />
+<img width="813" height="1179" alt="Screenshot 2026-01-03 at 23 14 07" src="https://github.com/user-attachments/assets/398edf09-5d32-4b7c-b8fe-5d7922790011" />
+<img width="807" height="1144" alt="Screenshot 2026-01-03 at 23 07 08" src="https://github.com/user-attachments/assets/3bb6ec27-2c56-4b0c-8cf9-0d70349b5a5b" />
+<img width="376" height="529" alt="Screenshot 2026-01-03 at 22 54 08" src="https://github.com/user-attachments/assets/75c7a16d-db85-4ced-9dce-bd3414310b2e" />
+<img width="1200" height="471" alt="Screenshot 2026-01-03 at 22 09 42" src="https://github.com/user-attachments/assets/80054984-df6f-4a76-a4d7-b8953f6c2921" />
+<img width="460" height="554" alt="Screenshot 2026-01-03 at 21 55 42" src="https://github.com/user-attachments/assets/ecefced7-474a-4daf-b39b-2fa5ff54790d" />
+<img width="2192" height="772" alt="Screenshot 2026-01-03 at 21 50 48" src="https://github.com/user-attachments/assets/07fbf5d3-a538-4d4c-8516-0993f5cbce37" />
+<img width="4" height="1" alt="Screenshot 2026-01-03 at 21 50 39" src="https://github.com/user-attachments/assets/3bd177ab-5320-43ab-8644-05d5c401aaaf" />
+<img width="2558" height="537" alt="Screenshot 2026-01-03 at 21 13 35" src="https://github.com/user-attachments/assets/8f3793eb-1431-4044-a1d1-95876c598e09" />
+<img width="2557" height="512" alt="Screenshot 2026-01-03 at 21 07 17" src="https://github.com/user-attachments/assets/0eebf470-a81d-49bc-a61d-de2c0aca41ce" />
+<img width="465" height="509" alt="Screenshot 2026-01-03 at 21 03 03" src="https://github.com/user-attachments/assets/58c4de4b-eae5-41ef-8386-92058a9b4b02" />
+<img width="2545" height="455" alt="Screenshot 2026-01-03 at 20 55 10" src="https://github.com/user-attachments/assets/8e7a9195-c532-493e-bacd-a36d5b8967e4" />
+<img width="2553" height="482" alt="Screenshot 2026-01-03 at 20 54 56" src="https://github.com/user-attachments/assets/c534e83e-8ebd-49ff-b284-5a222d711b8b" />
+<img width="643" height="489" alt="Screenshot 2026-01-03 at 20 47 01" src="https://github.com/user-attachments/assets/3e1151bc-430f-41b7-8df7-6a05f988287c" />
+<img width="894" height="573" alt="Screenshot 2026-01-03 at 20 38 15" src="https://github.com/user-attachments/assets/26d51bc9-4ff6-439f-83bf-128348494f42" />
+<img width="653" height="303" alt="Screenshot 2026-01-03 at 20 38 10" src="https://github.com/user-attachments/assets/24896645-229a-4b5e-879e-66ca08dfcc87" />
+<img width="1112" height="584" alt="Screenshot 2026-01-03 at 20 28 43" src="https://github.com/user-attachments/assets/1616728b-4eb4-42db-b80d-852835685fe1" />
+<img width="1160" height="451" alt="Screenshot 2026-01-03 at 19 49 35" src="https://github.com/user-attachments/assets/84582df8-4738-4943-b46e-48c4fbaf5191" />
+<img width="119" height="250" alt="Screenshot 2026-01-03 at 19 41 21" src="https://github.com/user-attachments/assets/ca802bdd-35ae-40d7-a65b-a69fc582c5d9" />
+<img width="222" height="381" alt="Screenshot 2026-01-03 at 19 37 42" src="https://github.com/user-attachments/assets/ed0dc6b4-1604-4603-9734-c2bdec4d852f" />
+<img width="242" height="564" alt="Screenshot 2026-01-03 at 19 37 09" src="https://github.com/user-attachments/assets/61bf946f-0bf7-4042-82c6-b4fcef01c457" />
+<img width="646" height="71" alt="Screenshot 2026-01-03 at 19 35 11" src="https://github.com/user-attachments/assets/51dcf51f-6914-4b88-bee6-bb7a11b3e9f7" />
+<img width="2375" height="1339" alt="Screenshot 2026-01-03 at 19 32 31" src="https://github.com/user-attachments/assets/b5b80784-401f-4b38-b28c-03af8d71d68b" />
+<img width="602" height="241" alt="Screenshot 2026-01-03 at 19 24 32" src="https://github.com/user-attachments/assets/75b486c4-5583-4456-a462-6a2eff58c4fb" />
+<img width="785" height="75" alt="Screenshot 2026-01-03 at 19 22 03" src="https://github.com/user-attachments/assets/03bc080d-02c4-4d63-8339-e208bf769774" />
+<img width="2535" height="1324" alt="Screenshot 2026-01-03 at 19 21 32" src="https://github.com/user-attachments/assets/5044c528-6e3d-45ae-a0b2-52b3641d9bb4" />
+<img width="264" height="320" alt="Screenshot 2026-01-04 at 21 57 36" src="https://github.com/user-attachments/assets/a855b60e-9b40-4d93-9be2-fcfbab437d53" />
+<img width="915" height="1213" alt="Screenshot 2026-01-04 at 00 08 18" src="https://github.com/user-attachments/assets/139b8537-5f32-4ec3-91da-323dbf984ffc" />
+<img width="311" height="90" alt="Screenshot 2026-01-04 at 00 02 07" src="https://github.com/user-attachments/assets/d09f0f12-f62a-44a5-8a2c-2237a89f68b1" />
+<img width="261" height="164" alt="Screenshot 2026-01-04 at 00 01 55" src="https://github.com/user-attachments/assets/22296682-8354-40b2-b921-17ebc6c2665e" />
+
+
+
