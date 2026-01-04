@@ -1,4 +1,3 @@
-
 # Vehicle Marketplace – Django Full Stack Application
 
 ## Table of Contents
@@ -35,17 +34,21 @@ This application was developed as **Project 4** for the  **Level 5 Diploma in We
 
 ## Project Rationale
 
-The rationale behind this project was to design and build a realistic, production-style full stack web application that reflects real-world e-commerce requirements.
+The primary goal of the Vehicle Marketplace is to deliver a full-stack, database-driven web application that allows users to browse, search, and purchase vehicles through a clear, intuitive interface. Unlike a purely informational site or an internal management tool, this project focuses on the complete user journey: discovering products, viewing detailed information, authenticating where necessary, and completing a transactional purchase. This aligns directly with the requirements of Project 4 by demonstrating a real-world Django application that integrates a relational database, multiple reusable apps, user authentication, and e-commerce functionality.
 
-A vehicle marketplace was chosen as the domain because it naturally requires:
+The motivation for this project is closely tied to my ongoing professional work in Search Engine Optimisation (SEO) and web development. A significant proportion of my working hours is spent delivering SEO-focused development for a range of companies, which requires a strong understanding of how users discover content and how technical decisions influence visibility, performance, and usability. Search Engine Optimisation in this context refers to improving a website’s structure, content, and technical foundations to increase its visibility in search engine results. This includes semantic HTML, clean URL structures, fast load times, mobile responsiveness, accessible layouts, and well-organised, database-driven content.
 
-* Relational data modelling
-* Search and filtering functionality
-* Authentication and authorisation
-* Secure online payments
-* Clear separation between user and admin roles
+Working in this way allows me to continually expand my skills across both front-end and back-end development, as SEO often exposes weaknesses in poorly structured applications. As a result, many of my design and implementation choices are informed by real-world requirements rather than purely academic exercises. This project provided an opportunity to apply those principles within a controlled full-stack build, ensuring that navigation, search functionality, template structure, and data modelling were aligned with both user experience and technical SEO best practices.
 
-This project demonstrates the ability to plan, design, build, test, and document a complete Django-based application using industry-standard practices.
+The idea for the Vehicle Marketplace was also strongly influenced by my work with Shoreline Vehicles, where I spend approximately 40% of my working hours. As a business that relies heavily on online visibility and lead generation, Shoreline Vehicles requires systems that not only present vehicles attractively but are also structured in a way that supports discoverability, scalability, and long-term maintainability. Through this work, it became clear that a dedicated, database-driven marketplace would provide far more control and flexibility than static listings or third-party platforms.
+
+From a full-stack development perspective, this created a clear opportunity to combine structured relational data with interactive front-end features. Core entities such as Product and Category form the foundation of the data model, while Django views, templates, and forms provide controlled access to that data. Authentication and authorisation separate public users from staff and administrators, and Stripe integration extends the application beyond basic CRUD by introducing real payment processing and user feedback flows.
+
+The specific problem the project addresses is the lack of a cohesive, end-to-end system for showcasing vehicles and handling transactions within a single platform. Without such a system, businesses must rely on disconnected tools for browsing, enquiries, and payments, which increases friction for users and complexity for administrators. The Vehicle Marketplace resolves this by providing a centralised solution where users can browse vehicles, filter by category, view detailed specifications and descriptions, and complete a purchase within the same application.
+
+The scope of the project is intentionally focused on demonstrating core full-stack principles rather than advanced commercial features. While the application includes authentication and secure payment processing, it does not yet implement features such as user dashboards, order history, or inventory analytics. These constraints ensure that the fundamental requirements of Project 4—relational data modelling, CRUD functionality, user interaction, e-commerce integration, testing, version control, and deployment—are implemented clearly and to a strong standard.
+
+In summary, the Vehicle Marketplace exists to solve a clear real-world problem: providing a structured, professional, and transactional platform for showcasing and selling vehicles online. By combining Django’s back-end capabilities with a responsive front end, SEO-aware structure, and secure payment integration, the project delivers a practical full-stack solution while directly meeting the learning outcomes and assessment criteria of Project 4.
 
 ---
 
@@ -102,10 +105,6 @@ Accessibility considerations were included throughout development, including:
 Wireframes were created during the planning stage to establish layout structure, navigation flow, and content hierarchy before development began.
 
 ### Desktop Wireframes
-
-### Mobile Wireframes
-
-*(Wireframe images to be added to the `docs/wireframes/` directory.)*
 
 ---
 
@@ -218,6 +217,9 @@ Wireframes were created during the planning stage to establish layout structure,
 * Required fields enforced
 * Invalid inputs rejected
 
+### Images
+
+
 ---
 
 ## Security
@@ -245,14 +247,43 @@ Wireframes were created during the planning stage to establish layout structure,
 
 Git was used throughout the project to document the development process and track incremental changes.
 
-### Key Commit Examples
+### Key Commit Text
 
-* Initial Django project setup
-* Core app and product models added
-* Authentication and admin configuration
-* Product listing and detail templates
-* Stripe checkout integration
-* UI styling and responsive layout
-* README documentation updates
+* Initial repository setup
+* Create Django project and verify initial run
+* Clean project structure and confirm Django setup
+* Add product and category models and register in admin
+* Add product views and connect product URLs
+* Display products on public marketplace with working templates
+* Add category filtering to product listings
+* Add basic global styling and static files
+* Fix auth template path for Django login view
+* Fix base template structure and add staff admin link
+* Display product images on product list and detail pages
+* Add product search functionality
+* Add checkout app with success and cancel pages
+* Implement Stripe checkout with payment success and cancel feedback
+* Refactor base template with structured header, search bar and auth buttons
+* Remove duplicate search form from main content and rely on header search
+* Enhance vehicle detail page with structured layout and purchase action
+* Restructure vehicle detail page with image-first layout and separated purchase and details sections
+* Add product description field and display detailed vehicle information
+* Improve product detail layout with structured sections and description content
+* Improve responsive product grid layout across screen sizes
+* Improve UI styling for category filters and back to vehicles navigation
+* Add centred cancel page with return to marketplace button
+* Create initial README with project overview
+* Add project purpose and target audience to README
+* Add UX and accessibility documentation to README
+* Add project overview and purpose to README
+* Add user stories defining application interactions
+* Add features overview to README
+* Add data model description to README
+* Document CRUD functionality in README
+* Add authentication and authorisation section to README
+* Document Stripe e-commerce payment functionality
+* Add testing documentation to README
+* Add security considerations to README
+* Add technologies used section to README
 
-Screenshots of commit history can be found below:
+Screenshots of commit history can be found below.
