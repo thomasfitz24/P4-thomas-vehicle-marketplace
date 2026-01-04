@@ -115,3 +115,45 @@ These considerations ensure the application is usable by a wide range of users a
 - Buttons styled consistently across the site.
 - Forms use clear labels and placeholders.
 - Layout designed to be intuitive and easy to navigate for first-time users.
+
+
+## Data Model
+
+The application uses a relational database implemented with Django’s ORM.
+The data model is designed to reflect a real-world vehicle marketplace and consists of the following core entities:
+
+### Category Model
+
+The Category model is used to group vehicles into logical categories.
+
+**Fields:**
+
+- `name` – Name of the category
+- `slug` – URL-friendly identifier
+
+**Purpose:**
+
+- Allows vehicles to be filtered and organised
+- Improves navigation and user experience
+
+### Product Model
+
+The Product model represents an individual vehicle listing.
+
+**Fields:**
+
+- `name` – Vehicle name
+- `slug` – URL-friendly identifier
+- `price` – Vehicle price
+- `year` – Year of manufacture
+- `mileage` – Vehicle mileage
+- `description` – Detailed vehicle description
+- `image` – Vehicle image
+- `is_available` – Availability status
+- `category` – Foreign key relationship to Category
+
+**Relationships:**
+
+- One Category can be associated with many Products (one-to-many relationship)
+
+This relational structure allows efficient querying, filtering, and management of vehicle listings while maintaining data integrity.
