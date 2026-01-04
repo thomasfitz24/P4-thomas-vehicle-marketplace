@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-1v%-h!97gez1#@a*ck^kh#cm47nrt5&%(j*(ze@#=8-5a+ph2&"
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     "p4-thomas-vehicle-marketplace-cf589c4c8f97.herokuapp.com",
@@ -50,7 +50,6 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-                "core.context_processors.env_flags",
             ],
         },
     },
