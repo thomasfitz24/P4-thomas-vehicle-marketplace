@@ -205,3 +205,31 @@ The application uses Django’s built-in authentication system to manage user ac
 - All sensitive operations are handled securely through Django’s permission system.
 
 This ensures that user data and marketplace content are protected while allowing appropriate access based on user roles.
+
+
+
+## E-commerce & Payments
+
+The application includes e-commerce functionality implemented using Stripe Checkout to allow users to securely purchase vehicles online.
+
+### Stripe Integration
+
+- Stripe is used as the online payment processing system.
+- Secure Checkout Sessions are created using Stripe’s Python API.
+- Sensitive Stripe keys are stored as environment variables and are not committed to the repository.
+
+### Payment Flow
+
+1. Users select a vehicle and click the “Buy Vehicle” button.
+2. A Stripe Checkout session is created server-side.
+3. Users are redirected to Stripe’s secure checkout page.
+4. Upon successful payment, users are redirected to a payment success page.
+5. If a payment is cancelled, users are redirected to a cancellation page with the option to return to the marketplace.
+
+### User Feedback
+
+- A clear success message is displayed after a completed purchase.
+- A cancellation message is displayed if the user exits the payment process.
+- Navigation options are provided to return users back to the marketplace.
+
+This implementation ensures a secure, user-friendly checkout experience while following best practices for handling payments.
