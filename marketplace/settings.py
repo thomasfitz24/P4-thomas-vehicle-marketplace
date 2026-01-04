@@ -14,9 +14,7 @@ from pathlib import Path
 import os
 from django.conf import settings
 
-TEMPLATES[0]["OPTIONS"]["context_processors"].append(
-    "django.template.context_processors.request"
-)
+
 
 
 ON_HEROKU = "DYNO" in os.environ
