@@ -7,12 +7,11 @@
 
 <hr>
 
-<nav>
-    <strong>Categories:</strong>
-    <a href="{% url 'products:product_list' %}">All</a>
+<nav class="categories">
+    <span>Categories:</span>
+    <a href="{% url 'products:product_list' %}" class="category-button">All</a>
     {% for category in categories %}
-        |
-        <a href="?category={{ category.slug }}">
+        <a href="?category={{ category.slug }}" class="category-button">
             {{ category.name }}
         </a>
     {% endfor %}
@@ -30,8 +29,8 @@
                     {% endif %}
                     <div class="product-info">
                         <h3>{{ product.name }}</h3>
-                        <p class="price">£{{ product.price }}</p>
-                        <p class="meta">{{ product.year }} · {{ product.mileage }} miles</p>
+                        <p class="product-price">£{{ product.price }}</p>
+                        <p class="product-meta">{{ product.year }} · {{ product.mileage }} miles</p>
                     </div>
                 </a>
             </div>
