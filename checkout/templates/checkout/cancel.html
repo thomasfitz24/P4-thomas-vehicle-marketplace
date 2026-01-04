@@ -3,7 +3,14 @@
 {% block title %}Payment Cancelled{% endblock %}
 
 {% block content %}
-<h2>Payment Cancelled</h2>
-<p>Your payment was cancelled.</p>
-<a href="/">Return to marketplace</a>
+<div class="checkout-message">
+
+    <h2>Payment Cancelled</h2>
+    <p>Your transaction was cancelled. No payment has been taken.</p>
+
+    <a href="{% url 'products:product_list' %}" class="button">
+        Return to Marketplace
+    </a>
+
+</div>
 {% endblock %}

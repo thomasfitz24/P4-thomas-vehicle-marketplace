@@ -268,3 +268,16 @@ button {
     margin-top: 0;
 }
 
+.checkout-message {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.checkout-message h2 {
+    margin-bottom: 0.5rem;
+}
