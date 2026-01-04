@@ -33,10 +33,10 @@
     </section>
 
     {% if product.description %}
-    <section class="product-description">
-        <h3>Description</h3>
-        <p>{{ product.description }}</p>
-    </section>
+        <section class="product-description">
+            <h3>Description</h3>
+            <p>{{ product.description }}</p>
+        </section>
     {% endif %}
 
     <a href="{% url 'products:product_list' %}" class="button">
