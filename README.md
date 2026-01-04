@@ -21,3 +21,30 @@ The target audience for this application includes:
 - Businesses requiring a simple, secure vehicle sales platform
 
 The interface is designed to be easy to navigate for first-time users while still providing full control and management capabilities for administrators.
+
+
+## User Experience (UX)
+
+The application is designed with a clear and consistent layout to ensure users can easily navigate and understand the purpose of the site immediately.
+
+Key UX features include:
+
+- A persistent header with navigation, search functionality, and authentication controls
+- A responsive grid layout that adapts to different screen sizes
+- Card-based vehicle listings for clear visual separation
+- Dedicated vehicle detail pages with structured information and clear calls to action
+- Feedback pages for successful and cancelled purchases
+
+Users have full control of their interaction with the application, including browsing, searching, filtering by category, viewing detailed information, and completing purchases.
+
+## Accessibility
+
+Accessibility considerations were included throughout development, including:
+
+- High colour contrast between text and background for readability
+- Semantic HTML structure using headings, navigation elements, and sections
+- Clear button styling and consistent interactive elements
+- Responsive design supporting mobile, tablet, and desktop screen sizes
+- Alt text for vehicle images where applicable
+
+These considerations ensure the application is usable by a wide range of users and aligns with modern accessibility best practices.
