@@ -280,3 +280,14 @@ Security considerations were applied throughout the development of the applicati
 - User input is validated using Django forms and model validation to reduce the risk of invalid or malicious data.
 
 These measures help ensure the application is safe, secure, and suitable for deployment.
+
+
+## Technologies Used
+
+- **Python 3** – Backend programming language
+- **Django** – Full stack web framework
+- **SQLite** – Relational database used during development
+- **HTML5** – Page structure and templates
+- **CSS3** – Styling and responsive layout
+- **Stripe API** – Secure payment processing
+- **Git & GitHub** – Version control and project documentation
