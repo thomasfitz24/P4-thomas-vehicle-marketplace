@@ -1,4 +1,5 @@
 {% extends "core/base.html" %}
+{% load static %}
 
 {% block title %}{{ product.name }}{% endblock %}
 
@@ -8,6 +9,8 @@
     <div class="product-detail-image">
         {% if product.image %}
             <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        {% else %}
+            <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
         {% endif %}
     </div>
 
@@ -28,20 +31,17 @@
             <li><strong>Category:</strong> {{ product.category.name }}</li>
         </ul>
     </section>
-    
+
     {% if product.description %}
     <section class="product-description">
-    <h3>Description</h3>
-    <p>{{ product.description }}</p>
+        <h3>Description</h3>
+        <p>{{ product.description }}</p>
     </section>
     {% endif %}
 
-
-
     <a href="{% url 'products:product_list' %}" class="button">
-    ← Back to vehicles
+        ← Back to vehicles
     </a>
- 
 
 </div>
 {% endblock %}

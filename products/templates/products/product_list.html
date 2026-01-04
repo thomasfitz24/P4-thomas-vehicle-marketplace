@@ -25,7 +25,7 @@
         {% for product in products %}
             <div class="product-card">
                 <a href="{% url 'products:product_detail' product.slug %}">
-                    
+
                     {% if product.image %}
                         <img src="{{ product.image.url }}" alt="{{ product.name }}">
                     {% else %}
@@ -39,6 +39,7 @@
                             {{ product.year }} · {{ product.mileage }} miles
                         </p>
                     </div>
+
                 </a>
             </div>
         {% endfor %}
