@@ -1,3 +1,13 @@
+# Vehicle Marketplace – Django Full Stack Application
+
+## Project Overview
+
+This project is a full-stack vehicle marketplace web application built using the Django framework. The application allows users to browse available vehicles, filter by category, view detailed vehicle information, and purchase vehicles through an integrated Stripe payment system.
+
+The project demonstrates the use of Django’s Model-View-Template (MVT) architecture, relational databases, user authentication, and third-party payment integration. It has been designed to meet accessibility, usability, and responsive design principles across desktop and mobile devices.
+
+This application was developed as **Project 4** for the **Level 5 Diploma in Web Application Development**.
+
 # Vehicle Marketplace
 
 A full stack Django web application that allows users to browse, search, and purchase vehicles online.
