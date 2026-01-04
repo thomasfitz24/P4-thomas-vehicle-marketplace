@@ -1,4 +1,27 @@
+
 # Vehicle Marketplace – Django Full Stack Application
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Project Rationale]()
+3. [Project Purpose]()
+4. [Target Audience]()
+5. [User Experience (UX)]()
+6. [Accessibility]()
+7. [Wireframes](#wireframes)
+8. [User Stories](#user-stories)
+9. [Features](#features)
+10. [Data Model](#data-model)
+11. [CRUD Functionality]()
+12. [Authentication &amp; Authorisation]()
+13. [E-commerce &amp; Payments]()
+14. [Testing](#testing)
+15. [Security]()
+16. [Technologies Used](#technologies-used)
+17. [Version Control &amp; Git Commit History]()
+
+---
 
 ## Project Overview
 
@@ -6,15 +29,25 @@ This project is a full-stack vehicle marketplace web application built using the
 
 The project demonstrates the use of Django’s Model-View-Template (MVT) architecture, relational databases, user authentication, and third-party payment integration. It has been designed to meet accessibility, usability, and responsive design principles across desktop and mobile devices.
 
-This application was developed as **Project 4** for the **Level 5 Diploma in Web Application Development**.
+This application was developed as **Project 4** for the  **Level 5 Diploma in Web Application Development** .
 
-# Vehicle Marketplace
+---
 
-A full stack Django web application that allows users to browse, search, and purchase vehicles online.
+## Project Rationale
 
-This project was developed using the Django framework with a relational database and multiple reusable apps. It includes user authentication, an admin interface, and Stripe-based checkout functionality.
+The rationale behind this project was to design and build a realistic, production-style full stack web application that reflects real-world e-commerce requirements.
 
-This application was created as Project 4 for the Level 5 Diploma in Web Application Development.
+A vehicle marketplace was chosen as the domain because it naturally requires:
+
+* Relational data modelling
+* Search and filtering functionality
+* Authentication and authorisation
+* Secure online payments
+* Clear separation between user and admin roles
+
+This project demonstrates the ability to plan, design, build, test, and document a complete Django-based application using industry-standard practices.
+
+---
 
 ## Project Purpose
 
@@ -22,16 +55,19 @@ The purpose of the Vehicle Marketplace application is to provide users with a cl
 
 The application demonstrates a real-world full stack e-commerce workflow, including product listing, search and filtering, authentication, and online payments. It is designed to reflect how a modern vehicle marketplace might function at a small-to-medium business scale.
 
+---
+
 ## Target Audience
 
 The target audience for this application includes:
 
-- Users looking to browse and purchase vehicles online
-- Administrators managing vehicle listings and categories
-- Businesses requiring a simple, secure vehicle sales platform
+* Users looking to browse and purchase vehicles online
+* Administrators managing vehicle listings and categories
+* Businesses requiring a simple, secure vehicle sales platform
 
 The interface is designed to be easy to navigate for first-time users while still providing full control and management capabilities for administrators.
 
+---
 
 ## User Experience (UX)
 
@@ -39,255 +75,184 @@ The application is designed with a clear and consistent layout to ensure users c
 
 Key UX features include:
 
-- A persistent header with navigation, search functionality, and authentication controls
-- A responsive grid layout that adapts to different screen sizes
-- Card-based vehicle listings for clear visual separation
-- Dedicated vehicle detail pages with structured information and clear calls to action
-- Feedback pages for successful and cancelled purchases
+* A persistent header with navigation, search functionality, and authentication controls
+* A responsive grid layout that adapts to different screen sizes
+* Card-based vehicle listings for clear visual separation
+* Dedicated vehicle detail pages with structured information and clear calls to action
+* Feedback pages for successful and cancelled purchases
 
 Users have full control of their interaction with the application, including browsing, searching, filtering by category, viewing detailed information, and completing purchases.
+
+---
 
 ## Accessibility
 
 Accessibility considerations were included throughout development, including:
 
-- High colour contrast between text and background for readability
-- Semantic HTML structure using headings, navigation elements, and sections
-- Clear button styling and consistent interactive elements
-- Responsive design supporting mobile, tablet, and desktop screen sizes
-- Alt text for vehicle images where applicable
+* High colour contrast between text and background for readability
+* Semantic HTML structure using headings, navigation elements, and sections
+* Clear button styling and consistent interactive elements
+* Responsive design supporting mobile, tablet, and desktop screen sizes
+* Alt text for vehicle images where applicable
 
-These considerations ensure the application is usable by a wide range of users and aligns with modern accessibility best practices.
+---
 
+## Wireframes
+
+Wireframes were created during the planning stage to establish layout structure, navigation flow, and content hierarchy before development began.
+
+### Desktop Wireframes
+
+### Mobile Wireframes
+
+*(Wireframe images to be added to the `docs/wireframes/` directory.)*
+
+---
 
 ## User Stories
 
 ### Visitor (Unauthenticated User)
 
-- As a visitor, I want to browse available vehicles so that I can view what is for sale without creating an account.
-- As a visitor, I want to search and filter vehicles by category so that I can quickly find relevant listings.
-- As a visitor, I want to view detailed information about a vehicle so that I can decide whether I want to purchase it.
-- As a visitor, I want to register or log in so that I can make a purchase.
+* Browse vehicles without logging in
+* Search and filter vehicles by category
+* View detailed vehicle information
+* Register or log in to make a purchase
 
 ### Registered User
 
-- As a registered user, I want to log in securely so that I can access purchase functionality.
-- As a registered user, I want to complete a payment using Stripe so that I can safely buy a vehicle.
-- As a registered user, I want to see feedback after a successful or cancelled payment so that I understand the outcome of my transaction.
+* Log in securely
+* Complete payments using Stripe
+* Receive feedback after successful or cancelled payments
 
 ### Admin User
 
-- As an admin user, I want to create, edit, and delete vehicles so that I can manage marketplace listings.
-- As an admin user, I want to manage categories so that vehicles are organised logically.
+* Create, edit, and delete vehicles
+* Manage vehicle categories
+
+---
 
 ## Features
 
 ### General Features
 
-- Responsive layout that works on desktop, tablet, and mobile devices.
-- Clear navigation with a fixed header and footer.
-- Clean, card-based vehicle listing layout for easy browsing.
-- Search functionality allowing users to find vehicles by name.
-- Category filtering to help users narrow down vehicle listings.
+* Responsive design across all devices
+* Card-based vehicle listings
+* Search and category filtering
 
 ### Product Management
 
-- Vehicle listings displayed as cards with image, price, year, and mileage.
-- Dedicated vehicle detail pages with full information and description.
-- Admin-only access to create, update, and delete vehicles and categories via the Django admin panel.
+* Vehicle detail pages
+* Admin-only CRUD functionality
 
 ### Authentication & Authorisation
 
-- User authentication using Django’s built-in authentication system.
-- Login and logout functionality.
-- Admin users have additional permissions to manage marketplace content.
-- Non-admin users are prevented from accessing the database directly.
+* Login/logout system
+* Admin permissions enforced
 
 ### E-commerce Functionality
 
-- Secure vehicle purchases using Stripe Checkout.
-- Payment success page confirming completed transactions.
-- Payment cancellation page providing user feedback and return navigation.
+* Stripe Checkout integration
+* Payment success and cancellation feedback
 
-### Accessibility & UX
-
-- High-contrast header and footer for readability.
-- Buttons styled consistently across the site.
-- Forms use clear labels and placeholders.
-- Layout designed to be intuitive and easy to navigate for first-time users.
-
+---
 
 ## Data Model
 
-The application uses a relational database implemented with Django’s ORM.
-The data model is designed to reflect a real-world vehicle marketplace and consists of the following core entities:
-
 ### Category Model
 
-The Category model is used to group vehicles into logical categories.
-
-**Fields:**
-
-- `name` – Name of the category
-- `slug` – URL-friendly identifier
-
-**Purpose:**
-
-- Allows vehicles to be filtered and organised
-- Improves navigation and user experience
+* name
+* slug
 
 ### Product Model
 
-The Product model represents an individual vehicle listing.
+* name
+* slug
+* price
+* year
+* mileage
+* description
+* image
+* is_available
+* category (ForeignKey)
 
-**Fields:**
-
-- `name` – Vehicle name
-- `slug` – URL-friendly identifier
-- `price` – Vehicle price
-- `year` – Year of manufacture
-- `mileage` – Vehicle mileage
-- `description` – Detailed vehicle description
-- `image` – Vehicle image
-- `is_available` – Availability status
-- `category` – Foreign key relationship to Category
-
-**Relationships:**
-
-- One Category can be associated with many Products (one-to-many relationship)
-
-This relational structure allows efficient querying, filtering, and management of vehicle listings while maintaining data integrity.
-
+---
 
 ## CRUD Functionality
 
-The application implements full CRUD (Create, Read, Update, Delete) functionality using Django’s models, views, templates, and admin interface.
+* **Create:** Admin creates vehicles and categories
+* **Read:** Users browse and view vehicles
+* **Update:** Admin edits listings
+* **Delete:** Admin removes listings
 
-### Create
-
-- Administrators can create new vehicle categories and vehicle listings via the Django admin panel.
-- Vehicle creation includes validation for required fields such as name, price, year, and mileage.
-
-### Read
-
-- All users (including anonymous users) can browse available vehicles.
-- Users can view a list of vehicles displayed in a card-based layout.
-- Each vehicle has a dedicated detail page displaying full information, including images and descriptions.
-
-### Update
-
-- Administrators can edit existing vehicle listings and categories through the Django admin interface.
-- Changes made to vehicle details are immediately reflected in the user interface.
-
-### Delete
-
-- Administrators can remove vehicles and categories from the system using the Django admin panel.
-- Deleted records are permanently removed from the database and no longer visible to users.
-
-This approach ensures that all database operations are securely handled through the application logic, preventing unauthorised access to the data store.
-
+---
 
 ## Authentication & Authorisation
 
-The application uses Django’s built-in authentication system to manage user access and permissions.
+* Django authentication system
+* Admin-only access to admin panel
+* Non-admin users restricted from data modification
 
-### Authentication
-
-- Users can log in and log out using Django’s authentication views.
-- Login pages are only accessible to unauthenticated users.
-- Authenticated users can access additional functionality such as purchasing vehicles.
-
-### Authorisation
-
-- Administrator (staff) users have full access to the Django admin panel.
-- Only admin users can create, edit, or delete vehicle listings and categories.
-- Non-admin users are prevented from accessing or modifying the data store directly.
-- All sensitive operations are handled securely through Django’s permission system.
-
-This ensures that user data and marketplace content are protected while allowing appropriate access based on user roles.
-
-
+---
 
 ## E-commerce & Payments
 
-The application includes e-commerce functionality implemented using Stripe Checkout to allow users to securely purchase vehicles online.
+* Stripe Checkout integration
+* Secure environment variable key storage
+* Success and cancellation pages
 
-### Stripe Integration
-
-- Stripe is used as the online payment processing system.
-- Secure Checkout Sessions are created using Stripe’s Python API.
-- Sensitive Stripe keys are stored as environment variables and are not committed to the repository.
-
-### Payment Flow
-
-1. Users select a vehicle and click the “Buy Vehicle” button.
-2. A Stripe Checkout session is created server-side.
-3. Users are redirected to Stripe’s secure checkout page.
-4. Upon successful payment, users are redirected to a payment success page.
-5. If a payment is cancelled, users are redirected to a cancellation page with the option to return to the marketplace.
-
-### User Feedback
-
-- A clear success message is displayed after a completed purchase.
-- A cancellation message is displayed if the user exits the payment process.
-- Navigation options are provided to return users back to the marketplace.
-
-This implementation ensures a secure, user-friendly checkout experience while following best practices for handling payments.
-
+---
 
 ## Testing
 
-Testing was carried out throughout the development process to ensure functionality, usability, responsiveness, and data integrity.
-
 ### Manual Testing
 
-The following manual tests were conducted:
-
-- All pages load correctly without errors.
-- Navigation links direct users to the correct pages.
-- Vehicle listings display correctly across different screen sizes.
-- Search functionality returns relevant vehicle results.
-- Category filtering works as expected.
-- Users can log in and log out successfully.
-- Non-admin users cannot access the admin panel.
-- Admin users can create, edit, and delete vehicles and categories.
-- Stripe checkout redirects correctly to success and cancellation pages.
+* Navigation, filtering, authentication
+* Stripe checkout flow
 
 ### Responsiveness Testing
 
-- The application was tested on desktop, tablet, and mobile screen sizes.
-- The product grid adapts to display 4, 3, 2, or 1 columns depending on screen width.
-- Buttons and navigation remain accessible on smaller screens.
+* Desktop, tablet, and mobile layouts
 
 ### Validation Testing
 
-- Forms were tested to ensure required fields are enforced.
-- Invalid inputs are rejected by Django’s built-in validation.
+* Required fields enforced
+* Invalid inputs rejected
 
-No critical bugs were found during testing, and all core features function as intended.
-
-
+---
 
 ## Security
 
-Security considerations were applied throughout the development of the application.
+* Environment variables for secrets
+* Django ORM for database protection
+* Restricted admin access
+* Input validation
 
-- Django’s built-in authentication and authorisation system is used to manage users securely.
-- Sensitive information such as the Django secret key and Stripe API keys are stored using environment variables.
-- No secret keys, passwords, or credentials are committed to the GitHub repository.
-- The admin interface is restricted to authorised staff users only.
-- All database interactions are handled through Django’s ORM to prevent direct database access.
-- User input is validated using Django forms and model validation to reduce the risk of invalid or malicious data.
-
-These measures help ensure the application is safe, secure, and suitable for deployment.
-
+---
 
 ## Technologies Used
 
-- **Python 3** – Backend programming language
-- **Django** – Full stack web framework
-- **SQLite** – Relational database used during development
-- **HTML5** – Page structure and templates
-- **CSS3** – Styling and responsive layout
-- **Stripe API** – Secure payment processing
-- **Git & GitHub** – Version control and project documentation
+* Python 3
+* Django
+* SQLite
+* HTML5
+* CSS3
+* Stripe API
+* Git & GitHub
+
+---
+
+## Version Control & Git Commit History
+
+Git was used throughout the project to document the development process and track incremental changes.
+
+### Key Commit Examples
+
+* Initial Django project setup
+* Core app and product models added
+* Authentication and admin configuration
+* Product listing and detail templates
+* Stripe checkout integration
+* UI styling and responsive layout
+* README documentation updates
+
+Screenshots of commit history can be found below:
