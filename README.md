@@ -185,3 +185,23 @@ The application implements full CRUD (Create, Read, Update, Delete) functionalit
 - Deleted records are permanently removed from the database and no longer visible to users.
 
 This approach ensures that all database operations are securely handled through the application logic, preventing unauthorised access to the data store.
+
+
+## Authentication & Authorisation
+
+The application uses Django’s built-in authentication system to manage user access and permissions.
+
+### Authentication
+
+- Users can log in and log out using Django’s authentication views.
+- Login pages are only accessible to unauthenticated users.
+- Authenticated users can access additional functionality such as purchasing vehicles.
+
+### Authorisation
+
+- Administrator (staff) users have full access to the Django admin panel.
+- Only admin users can create, edit, or delete vehicle listings and categories.
+- Non-admin users are prevented from accessing or modifying the data store directly.
+- All sensitive operations are handled securely through Django’s permission system.
+
+This ensures that user data and marketplace content are protected while allowing appropriate access based on user roles.
