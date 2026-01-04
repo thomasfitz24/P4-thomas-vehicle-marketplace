@@ -157,3 +157,31 @@ The Product model represents an individual vehicle listing.
 - One Category can be associated with many Products (one-to-many relationship)
 
 This relational structure allows efficient querying, filtering, and management of vehicle listings while maintaining data integrity.
+
+
+## CRUD Functionality
+
+The application implements full CRUD (Create, Read, Update, Delete) functionality using Django’s models, views, templates, and admin interface.
+
+### Create
+
+- Administrators can create new vehicle categories and vehicle listings via the Django admin panel.
+- Vehicle creation includes validation for required fields such as name, price, year, and mileage.
+
+### Read
+
+- All users (including anonymous users) can browse available vehicles.
+- Users can view a list of vehicles displayed in a card-based layout.
+- Each vehicle has a dedicated detail page displaying full information, including images and descriptions.
+
+### Update
+
+- Administrators can edit existing vehicle listings and categories through the Django admin interface.
+- Changes made to vehicle details are immediately reflected in the user interface.
+
+### Delete
+
+- Administrators can remove vehicles and categories from the system using the Django admin panel.
+- Deleted records are permanently removed from the database and no longer visible to users.
+
+This approach ensures that all database operations are securely handled through the application logic, preventing unauthorised access to the data store.
