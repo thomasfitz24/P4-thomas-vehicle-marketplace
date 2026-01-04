@@ -79,3 +79,39 @@ These considerations ensure the application is usable by a wide range of users a
 
 - As an admin user, I want to create, edit, and delete vehicles so that I can manage marketplace listings.
 - As an admin user, I want to manage categories so that vehicles are organised logically.
+
+## Features
+
+### General Features
+
+- Responsive layout that works on desktop, tablet, and mobile devices.
+- Clear navigation with a fixed header and footer.
+- Clean, card-based vehicle listing layout for easy browsing.
+- Search functionality allowing users to find vehicles by name.
+- Category filtering to help users narrow down vehicle listings.
+
+### Product Management
+
+- Vehicle listings displayed as cards with image, price, year, and mileage.
+- Dedicated vehicle detail pages with full information and description.
+- Admin-only access to create, update, and delete vehicles and categories via the Django admin panel.
+
+### Authentication & Authorisation
+
+- User authentication using Django’s built-in authentication system.
+- Login and logout functionality.
+- Admin users have additional permissions to manage marketplace content.
+- Non-admin users are prevented from accessing the database directly.
+
+### E-commerce Functionality
+
+- Secure vehicle purchases using Stripe Checkout.
+- Payment success page confirming completed transactions.
+- Payment cancellation page providing user feedback and return navigation.
+
+### Accessibility & UX
+
+- High-contrast header and footer for readability.
+- Buttons styled consistently across the site.
+- Forms use clear labels and placeholders.
+- Layout designed to be intuitive and easy to navigate for first-time users.
