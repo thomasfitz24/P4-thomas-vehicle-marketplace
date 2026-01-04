@@ -233,3 +233,35 @@ The application includes e-commerce functionality implemented using Stripe Check
 - Navigation options are provided to return users back to the marketplace.
 
 This implementation ensures a secure, user-friendly checkout experience while following best practices for handling payments.
+
+
+## Testing
+
+Testing was carried out throughout the development process to ensure functionality, usability, responsiveness, and data integrity.
+
+### Manual Testing
+
+The following manual tests were conducted:
+
+- All pages load correctly without errors.
+- Navigation links direct users to the correct pages.
+- Vehicle listings display correctly across different screen sizes.
+- Search functionality returns relevant vehicle results.
+- Category filtering works as expected.
+- Users can log in and log out successfully.
+- Non-admin users cannot access the admin panel.
+- Admin users can create, edit, and delete vehicles and categories.
+- Stripe checkout redirects correctly to success and cancellation pages.
+
+### Responsiveness Testing
+
+- The application was tested on desktop, tablet, and mobile screen sizes.
+- The product grid adapts to display 4, 3, 2, or 1 columns depending on screen width.
+- Buttons and navigation remain accessible on smaller screens.
+
+### Validation Testing
+
+- Forms were tested to ensure required fields are enforced.
+- Invalid inputs are rejected by Django’s built-in validation.
+
+No critical bugs were found during testing, and all core features function as intended.
