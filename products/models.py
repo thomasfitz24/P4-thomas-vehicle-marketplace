@@ -36,7 +36,7 @@ class Product(models.Model):
         return self.name
 
     def save(self, *args, **kwargs):
-        if self.image == "":
+        if not self.image:
             self.image = None
         super().save(*args, **kwargs)
 
@@ -47,3 +47,4 @@ class Product(models.Model):
         except Exception:
             pass
         return None
+    
