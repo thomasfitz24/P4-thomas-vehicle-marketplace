@@ -118,7 +118,8 @@ LOGOUT_REDIRECT_URL = "/"
 STRIPE_PUBLIC_KEY = os.getenv("STRIPE_PUBLIC_KEY")
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 
-os.environ.setdefault(
-    "CLOUDINARY_URL",
-    "CLOUDINARY_URL=cloudinary://<397568769876832>:<C40qTxWIZvZMt9lh4uEP03sVF3w>@dlkst7boo",
-)
+CLOUDINARY_STORAGE = {
+    "CLOUD_NAME": "dlkst7boo",
+    "API_KEY": "397568769876832",
+    "API_SECRET": "C40qTxWIZvZMt9lh4uEP03sVF3w",
+}
