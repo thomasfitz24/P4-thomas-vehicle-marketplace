@@ -60,6 +60,8 @@ WSGI_APPLICATION = "marketplace.wsgi.application"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+DEFAULT_FILE_STORAGE = "django.core.files.storage.FileSystemStorage"
+
 if "DATABASE_URL" in os.environ:
     DATABASES = {
         "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
