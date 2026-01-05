@@ -4,12 +4,8 @@ import dj_database_url  # ADDED: This handles the Heroku database connection
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECURITY WARNING: keep the secret key used in production secret!
-# It is better to use os.getenv for this in production, but we will keep your current one for now.
 SECRET_KEY = "django-insecure-1v%-h!97gez1#@a*ck^kh#cm47nrt5&%(j*(ze@#=8-5a+ph2&"
 
-# SECURITY WARNING: don't run with debug turned on in production!
-# Checks if the environment variable DEBUG is set to 'True', otherwise defaults to False
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
 ALLOWED_HOSTS = [
@@ -69,7 +65,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 # If yes (Production), it uses Postgres.
 # If no (Local), it uses your SQLite file.
 if "DATABASE_URL" in os.environ:
-    DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    }
 else:
     DATABASES = {
         "default": {
