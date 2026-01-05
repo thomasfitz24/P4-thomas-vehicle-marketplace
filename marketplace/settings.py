@@ -112,7 +112,7 @@ CLOUDINARY_STORAGE = {
     "API_SECRET": "C40qTxWIZvZMt9lh4uEP03sVF3w",
 }
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.StaticFilesStorage"
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
