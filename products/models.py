@@ -36,10 +36,7 @@ class Product(models.Model):
         return self.name
 
     def get_image_url(self):
-        """
-        Safely return the image URL if it exists.
-        Prevents 500 errors when media files are missing on Heroku.
-        """
+        
         try:
             if self.image and self.image.url:
                 return self.image.url

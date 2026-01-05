@@ -7,11 +7,11 @@
 <div class="product-detail">
 
     <div class="product-detail-image">
-        {% if product.image and product.image.url %}
-            <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        {% if product.get_image_url %}
+    <img src="{{ product.get_image_url }}" alt="{{ product.name }}">
         {% else %}
-            <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
-        {% endif %}
+    <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
+    {% endif %}
     </div>
 
     <section class="product-purchase">

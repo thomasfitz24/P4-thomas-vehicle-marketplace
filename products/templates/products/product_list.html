@@ -26,11 +26,12 @@
             <div class="product-card">
                 <a href="{% url 'products:product_detail' product.slug %}">
 
-                    {% if product.image and product.image.url %}
-                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
-                    {% else %}
-                        <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
+                     {% if product.get_image_url %}
+                     <img src="{{ product.get_image_url }}" alt="{{ product.name }}">
+                     {% else %}
+                    <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
                     {% endif %}
+
 
                     <div class="product-info">
                         <h3>{{ product.name }}</h3>
