@@ -7,7 +7,8 @@ def product_list(request):
     category_slug = request.GET.get("category")
     query = request.GET.get("q")
 
-    products = Product.objects.filter(is_available=True)
+    # 🔁 CHANGE: show all products (available + sold)
+    products = Product.objects.all()
     categories = Category.objects.all()
 
     if category_slug:
@@ -28,7 +29,8 @@ def product_list(request):
 
 
 def product_detail(request, slug):
-    product = get_object_or_404(Product, slug=slug, is_available=True)
+    # 🔁 CHANGE: allow viewing sold products
+    product = get_object_or_404(Product, slug=slug)
     return render(
         request,
         "products/product_detail.html",

@@ -281,3 +281,12 @@ button {
 .checkout-message h2 {
     margin-bottom: 0.5rem;
 }
+
+.sold-label,
+.sold-badge {
+    background: #b30000;
+    color: #fff;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

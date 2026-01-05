@@ -26,6 +26,10 @@
             <div class="product-card">
                 <a href="{% url 'products:product_detail' product.slug %}">
 
+                    {% if not product.is_available %}
+                        <span class="sold-badge">SOLD</span>
+                    {% endif %}
+
                     {% if product.image %}
                         <img src="{{ product.image.url }}" alt="{{ product.name }}">
                     {% else %}

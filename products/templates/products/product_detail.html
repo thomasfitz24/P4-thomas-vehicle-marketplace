@@ -18,9 +18,19 @@
         <h2>{{ product.name }}</h2>
         <p class="detail-price">£{{ product.price }}</p>
 
-        <a href="{% url 'checkout:buy' product.id %}" class="button">
-            Buy Vehicle
-        </a>
+        {% if product.is_available %}
+            {% if user.is_authenticated %}
+                <a href="{% url 'checkout:buy' product.id %}" class="button">
+                    Buy Vehicle
+                </a>
+            {% else %}
+                <a href="{% url 'login' %}?next={% url 'checkout:buy' product.id %}" class="button">
+                    Login to Buy
+                </a>
+            {% endif %}
+        {% else %}
+            <span class="sold-label">SOLD</span>
+        {% endif %}
     </section>
 
     <section class="product-details">
@@ -45,4 +55,5 @@
 
 </div>
 {% endblock %}
+
 
