@@ -290,3 +290,82 @@ button {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.auth-container {
+    max-width: 420px;
+    margin: 3rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.auth-container h2 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auth-container label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.auth-container input {
+    width: 100%;
+}
+
+.auth-container button {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.auth-container p {
+    margin-top: 1.25rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.auth-container a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+.checkout-message {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+}
+
+.checkout-message h2 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.checkout-message p {
+    font-size: 0.95rem;
+    color: #555;
+}
+

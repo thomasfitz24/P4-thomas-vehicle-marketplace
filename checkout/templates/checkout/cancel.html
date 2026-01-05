@@ -1,16 +1,12 @@
 {% extends "core/base.html" %}
 
-{% block title %}Payment Cancelled{% endblock %}
+{% block title %}Payment Successful{% endblock %}
 
 {% block content %}
 <div class="checkout-message">
+    <h2>Payment Successful</h2>
+    <p>Thank you for your purchase.</p>
 
-    <h2>Payment Cancelled</h2>
-    <p>Your transaction was cancelled. No payment has been taken.</p>
-
-    <a href="{% url 'products:product_list' %}" class="button">
-        Return to Marketplace
-    </a>
-
+    <a href="/" class="button">Return to marketplace</a>
 </div>
 {% endblock %}
