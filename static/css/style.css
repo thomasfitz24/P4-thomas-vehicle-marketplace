@@ -369,3 +369,33 @@ button {
     color: #555;
 }
 
+.auth-container {
+    max-width: 420px;
+    margin: 4rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.auth-container form {
+    margin-bottom: 1.5rem;
+}
+
+.auth-container p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.auth-container .button.secondary {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.auth-container .button.secondary:hover {
+    background-color: #000;
+    color: #fff;
+}
+
