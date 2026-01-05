@@ -34,17 +34,3 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-
-    def save(self, *args, **kwargs):
-        if not self.image:
-            self.image = None
-        super().save(*args, **kwargs)
-
-    def get_image_url(self):
-        try:
-            if self.image and self.image.url:
-                return self.image.url
-        except Exception:
-            pass
-        return None
-    
