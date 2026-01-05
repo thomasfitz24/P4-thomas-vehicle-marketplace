@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-import dj_database_url  # ADDED: This handles the Heroku database connection
+import dj_database_url 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -60,10 +60,6 @@ WSGI_APPLICATION = "marketplace.wsgi.application"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-# UPDATED: Database Configuration
-# This checks if Heroku has provided a database URL.
-# If yes (Production), it uses Postgres.
-# If no (Local), it uses your SQLite file.
 if "DATABASE_URL" in os.environ:
     DATABASES = {
         "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))

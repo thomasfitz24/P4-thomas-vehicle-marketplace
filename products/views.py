@@ -1,7 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.db import OperationalError
-from django.db.models import Q
-
+from django.db import models
 from .models import Product, Category
 
 
@@ -9,21 +7,16 @@ def product_list(request):
     category_slug = request.GET.get("category")
     query = request.GET.get("q")
 
-    try:
-        products = Product.objects.filter(is_available=True)
-        categories = Category.objects.all()
+    products = Product.objects.filter(is_available=True)
+    categories = Category.objects.all()
 
-        if category_slug:
-            products = products.filter(category__slug=category_slug)
+    if category_slug:
+        products = products.filter(category__slug=category_slug)
 
-        if query:
-            products = products.filter(
-                Q(name__icontains=query) | Q(description__icontains=query)
-            )
-
-    except OperationalError:
-        products = []
-        categories = []
+    if query:
+        products = products.filter(
+            models.Q(name__icontains=query) | models.Q(description__icontains=query)
+        )
 
     context = {
         "products": products,
@@ -32,3 +25,12 @@ def product_list(request):
         "query": query,
     }
     return render(request, "products/product_list.html", context)
+
+
+def product_detail(request, slug):
+    product = get_object_or_404(Product, slug=slug, is_available=True)
+    return render(
+        request,
+        "products/product_detail.html",
+        {"product": product},
+    )
