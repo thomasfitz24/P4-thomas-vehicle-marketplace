@@ -106,12 +106,6 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-CLOUDINARY_STORAGE = {
-    "CLOUD_NAME": "dlkst7boo",
-    "API_KEY": "397568769876832",
-    "API_SECRET": "C40qTxWIZvZMt9lh4uEP03sVF3w",
-}
-
 STATICFILES_STORAGE = "whitenoise.storage.StaticFilesStorage"
 
 MEDIA_URL = "/media/"
