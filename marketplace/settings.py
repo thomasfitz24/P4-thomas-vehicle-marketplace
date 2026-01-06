@@ -67,9 +67,9 @@ CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dlkst7boo',
-    'API_KEY': '<397568769876832>',
-    'API_SECRET': '<C40qTxWIZvZMt9lh4uEP03sVF3w>'
+    "CLOUD_NAME": "dlkst7boo",
+    "API_KEY": "<397568769876832>",
+    "API_SECRET": "<C40qTxWIZvZMt9lh4uEP03sVF3w>",
 }
 
 
@@ -92,7 +92,9 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
+# STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 WHITENOISE_MANIFEST_STRICT = False
 
