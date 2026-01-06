@@ -16,7 +16,6 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     "cloudinary",
-    "cloudinary_storage",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
