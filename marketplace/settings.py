@@ -64,11 +64,13 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 
-if CLOUDINARY_URL:
-    DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
-    CLOUDINARY_STORAGE = {"CLOUDINARY_URL": CLOUDINARY_URL}
-else:
-    DEFAULT_FILE_STORAGE = "django.core.files.storage.FileSystemStorage"
+DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dlkst7boo',
+    'API_KEY': '<397568769876832>',
+    'API_SECRET': '<C40qTxWIZvZMt9lh4uEP03sVF3w>'
+}
 
 
 if "DATABASE_URL" in os.environ:
@@ -90,7 +92,7 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 WHITENOISE_MANIFEST_STRICT = False
 
