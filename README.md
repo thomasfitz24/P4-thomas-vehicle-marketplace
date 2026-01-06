@@ -1,24 +1,32 @@
+
+Here is the updated **README.md** file, formatted and ready to use. I have integrated the **Assessor Login** details into the *Authentication* section and formatted the **Debugging Summary** as a dedicated technical section near the end of the document.
+
+**This addition aligns with the ****Distinction Criteria M(vi)** from your qualification specification^^, which requires documenting bug fixes and technical challenges.
+
+---
+
 # Vehicle Marketplace – Django Full Stack Application
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
-2. [Project Rationale]()
-3. [Project Purpose]()
-4. [Target Audience]()
-5. [User Experience (UX)]()
-6. [Accessibility]()
-7. [Wireframes](#wireframes)
-8. [User Stories](#user-stories)
-9. [Features](#features)
-10. [Data Model](#data-model)
-11. [CRUD Functionality]()
-12. [Authentication &amp; Authorisation]()
-13. [E-commerce &amp; Payments]()
-14. [Testing](#testing)
-15. [Security]()
-16. [Technologies Used](#technologies-used)
-17. [Version Control &amp; Git Commit History]()
+1. [Project Overview](https://www.google.com/search?q=%23project-overview&authuser=3)
+2. [Project Rationale](https://www.google.com/search?q=%23project-rationale&authuser=3)
+3. [Project Purpose](https://www.google.com/search?q=%23project-purpose&authuser=3)
+4. [Target Audience](https://www.google.com/search?q=%23target-audience&authuser=3)
+5. [User Experience (UX)](https://www.google.com/search?q=%23user-experience-ux&authuser=3)
+6. [Accessibility](https://www.google.com/search?q=%23accessibility&authuser=3)
+7. [Wireframes](https://www.google.com/search?q=%23wireframes&authuser=3)
+8. [User Stories](https://www.google.com/search?q=%23user-stories&authuser=3)
+9. [Features](https://www.google.com/search?q=%23features&authuser=3)
+10. [Data Model](https://www.google.com/search?q=%23data-model&authuser=3)
+11. [CRUD Functionality](https://www.google.com/search?q=%23crud-functionality&authuser=3)
+12. [Authentication &amp; Authorisation](https://www.google.com/search?q=%23authentication--authorisation&authuser=3)
+13. [E-commerce &amp; Payments](https://www.google.com/search?q=%23e-commerce--payments&authuser=3)
+14. [Testing](https://www.google.com/search?q=%23testing&authuser=3)
+15. [Security](https://www.google.com/search?q=%23security&authuser=3)
+16. [Critical Development Issues &amp; Debugging](https://www.google.com/search?q=%23critical-development-issues--debugging&authuser=3)
+17. [Technologies Used](https://www.google.com/search?q=%23technologies-used&authuser=3)
+18. [Version Control &amp; Git Commit History](https://www.google.com/search?q=%23version-control--git-commit-history&authuser=3)
 
 ---
 
@@ -106,7 +114,6 @@ Wireframes were created during the planning stage to establish layout structure,
 
 ### Images
 
-
 ---
 
 ## User Stories
@@ -192,6 +199,13 @@ Wireframes were created during the planning stage to establish layout structure,
 * Admin-only access to admin panel
 * Non-admin users restricted from data modification
 
+### Assessor Access
+
+For assessment and testing purposes, a pre-registered user account is available:
+
+* **Username:** `user`
+* **Password:** `user`
+
 ---
 
 ## E-commerce & Payments
@@ -200,10 +214,10 @@ Wireframes were created during the planning stage to establish layout structure,
 * Secure environment variable key storage
 * Success and cancellation pages
 
-##Images
-<img width="1284" height="1312" alt="Screenshot 2026-01-04 at 22 36 07" src="https://github.com/user-attachments/assets/b4d14b75-21a0-4541-a7d4-3ec85b2448f2" />
-<img width="1296" height="1290" alt="Screenshot 2026-01-04 at 22 33 13" src="https://github.com/user-attachments/assets/ab84e7e7-b13b-40bd-8797-c37903b40d44" />
+## Images
 
+<img width="1284" height="1312" alt="Screenshot 2026-01-04 at 22 36 07" src="[https://github.com/user-attachments/assets/b4d14b75-21a0-4541-a7d4-3ec85b2448f2](https://github.com/user-attachments/assets/b4d14b75-21a0-4541-a7d4-3ec85b2448f2)" />
+<img width="1296" height="1290" alt="Screenshot 2026-01-04 at 22 33 13" src="[https://github.com/user-attachments/assets/ab84e7e7-b13b-40bd-8797-c37903b40d44](https://github.com/user-attachments/assets/ab84e7e7-b13b-40bd-8797-c37903b40d44)" />
 
 ---
 
@@ -223,14 +237,15 @@ Wireframes were created during the planning stage to establish layout structure,
 * Required fields enforced
 
 ### Images
-<img width="1373" height="1034" alt="Screenshot 2026-01-04 at 22 11 32" src="https://github.com/user-attachments/assets/332f5824-9fbe-406a-90ee-9d61ab7e9fd3" />
-<img width="543" height="931" alt="Screenshot 2026-01-04 at 22 23 21" src="https://github.com/user-attachments/assets/137da3a3-806a-425d-859d-c9767a551a09" />
-<img width="1187" height="820" alt="Screenshot 2026-01-04 at 22 23 11" src="https://github.com/user-attachments/assets/4b24c0ba-26fb-4c94-8287-a3f5bd3322b8" />
-<img width="1249" height="787" alt="Screenshot 2026-01-04 at 22 12 22" src="https://github.com/user-attachments/assets/ed8caa11-dda5-41c5-a940-5c903f2311cb" />
-<img width="1235" height="743" alt="Screenshot 2026-01-04 at 22 12 16" src="https://github.com/user-attachments/assets/8b499fa2-3220-42c9-ae61-a064207884a4" />
-<img width="349" height="536" alt="Screenshot 2026-01-04 at 22 12 06" src="https://github.com/user-attachments/assets/d9969e3a-5104-4627-bf8f-f20d0388c312" />
-<img width="362" height="647" alt="Screenshot 2026-01-04 at 22 11 59" src="https://github.com/user-attachments/assets/a51cb447-4b8f-47db-b7ed-f9f5faea95d7" />
-<img width="364" height="629" alt="Screenshot 2026-01-04 at 22 11 51" src="https://github.com/user-attachments/assets/dd664e44-a671-4ce6-8c7c-d573d31fb7ca" />
+
+<img width="1373" height="1034" alt="Screenshot 2026-01-04 at 22 11 32" src="[https://github.com/user-attachments/assets/332f5824-9fbe-406a-90ee-9d61ab7e9fd3](https://github.com/user-attachments/assets/332f5824-9fbe-406a-90ee-9d61ab7e9fd3)" />
+<img width="543" height="931" alt="Screenshot 2026-01-04 at 22 23 21" src="[https://github.com/user-attachments/assets/137da3a3-806a-425d-859d-c9767a551a09](https://github.com/user-attachments/assets/137da3a3-806a-425d-859d-c9767a551a09)" />
+<img width="1187" height="820" alt="Screenshot 2026-01-04 at 22 23 11" src="[https://github.com/user-attachments/assets/4b24c0ba-26fb-4c94-8287-a3f5bd3322b8](https://github.com/user-attachments/assets/4b24c0ba-26fb-4c94-8287-a3f5bd3322b8)" />
+<img width="1249" height="787" alt="Screenshot 2026-01-04 at 22 12 22" src="[https://github.com/user-attachments/assets/ed8caa11-dda5-41c5-a940-5c903f2311cb](https://github.com/user-attachments/assets/ed8caa11-dda5-41c5-a940-5c903f2311cb)" />
+<img width="1235" height="743" alt="Screenshot 2026-01-04 at 22 12 16" src="[https://github.com/user-attachments/assets/8b499fa2-3220-42c9-ae61-a064207884a4](https://github.com/user-attachments/assets/8b499fa2-3220-42c9-ae61-a064207884a4)" />
+<img width="349" height="536" alt="Screenshot 2026-01-04 at 22 12 06" src="[https://github.com/user-attachments/assets/d9969e3a-5104-4627-bf8f-f20d0388c312](https://github.com/user-attachments/assets/d9969e3a-5104-4627-bf8f-f20d0388c312)" />
+<img width="362" height="647" alt="Screenshot 2026-01-04 at 22 11 59" src="[https://github.com/user-attachments/assets/a51cb447-4b8f-47db-b7ed-f9f5faea95d7](https://github.com/user-attachments/assets/a51cb447-4b8f-47db-b7ed-f9f5faea95d7)" />
+<img width="364" height="629" alt="Screenshot 2026-01-04 at 22 11 51" src="[https://github.com/user-attachments/assets/dd664e44-a671-4ce6-8c7c-d573d31fb7ca](https://github.com/user-attachments/assets/dd664e44-a671-4ce6-8c7c-d573d31fb7ca)" />
 
 ---
 
@@ -240,6 +255,99 @@ Wireframes were created during the planning stage to establish layout structure,
 * Django ORM for database protection
 * Restricted admin access
 * Input validation
+
+---
+
+## Critical Development Issues & Debugging
+
+During the development and deployment of this project, a significant challenge was encountered regarding static file handling and media storage on Heroku. This section documents the debugging process, root causes, and solutions.
+
+### Static Files & Media Upload Issue – Debugging Summary
+
+**Overview**
+During deployment of this Django application to Heroku, a critical production issue occurred where:
+
+* CSS stopped loading entirely.
+* `collectstatic` reported 0 files collected.
+* Media uploads (product images) failed to persist or display.
+* 500 errors appeared only when `DEBUG=False`.
+
+The issue took approximately 3 days (~15 hours) to fully diagnose. Although the final fix involved changing only one line, the difficulty came from silent failures caused by conflicting storage backends.
+
+**Initial Symptoms**
+The issue began after the following sequence:
+
+1. The app deployed successfully to Heroku.
+2. Cloudinary was added for image uploads.
+3. CSS changes were made post-deployment.
+4. CSS stopped loading in production.
+5. `collectstatic` began returning: `0 static files copied`.
+
+Despite this, `findstatic css/style.css` succeeded, templates used `{% load static %}` correctly, and the app worked locally with `DEBUG=True`. This strongly suggested Django could see the static files but was refusing to collect or serve them.
+
+### Root Cause #1 – Cloudinary / Static Files Conflict
+
+**Actual Cause**
+The core issue was `cloudinary_storage` being present in `INSTALLED_APPS` while also using WhiteNoise for static files. This caused Django’s staticfiles pipeline to silently short-circuit, resulting in:
+
+* `collectstatic` collecting 0 files.
+* No error messages.
+* Static files appearing to exist but never being served.
+
+**The Fix**
+Static and media responsibilities were separated: WhiteNoise for static files and Cloudinary for media uploads only.
+The fix was simply to remove `cloudinary_storage` from `INSTALLED_APPS`.
+Once removed, `collectstatic` immediately began copying files, CSS loaded correctly, and production no longer returned 500 errors.
+
+### Root Cause #2 – ImageField on Heroku
+
+**Media Upload Issue**
+After static files were fixed, a second issue surfaced where images uploaded via `/admin` disappeared after refresh or dyno restarts.
+
+**Actual Cause**
+The Product model originally used:
+
+**Python**
+
+```
+models.ImageField(upload_to="products/")
+```
+
+This stores files on the local filesystem, which is ephemeral on Heroku and does not persist.
+
+**The Fix – Use CloudinaryField**
+The Product model was updated to use Cloudinary directly:
+
+**Python**
+
+```
+from cloudinary.models import CloudinaryField
+
+image = CloudinaryField("image", blank=True, null=True)
+```
+
+This ensured admin uploads go directly to Cloudinary and media URLs remain valid in production.
+
+### Configuration
+
+**Environment Variable Configuration**
+A `ValueError` initially occurred because the Cloudinary URL was not set in the environment. This was resolved by exporting the variable:
+
+**Bash**
+
+```
+export CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@CLOUD_NAME
+```
+
+This was added to the Heroku Config Vars.
+
+**Final Working Setup**
+
+* **Static Files:** Handled by WhiteNoise, served from `/staticfiles`. `cloudinary_storage` is **not** in `INSTALLED_APPS`.
+* **Media Files:** Handled by Cloudinary using `CloudinaryField`.
+
+**Why This Is Documented**
+This section exists to demonstrate real-world debugging and problem-solving, show an understanding of Django deployment internals, and prevent future regressions.
 
 ---
 
@@ -300,37 +408,34 @@ Git was used throughout the project to document the development process and trac
 
 Screenshots for commit history can be found below.
 
-<img width="1047" height="870" alt="Screenshot 2026-01-03 at 23 31 21" src="https://github.com/user-attachments/assets/1b3ba787-9db8-48f5-af81-50691e2def10" />
-<img width="918" height="1233" alt="Screenshot 2026-01-03 at 23 18 18" src="https://github.com/user-attachments/assets/4850a06c-90e8-4f61-a7c3-600a2c41f6f0" />
-<img width="813" height="1179" alt="Screenshot 2026-01-03 at 23 14 07" src="https://github.com/user-attachments/assets/398edf09-5d32-4b7c-b8fe-5d7922790011" />
-<img width="807" height="1144" alt="Screenshot 2026-01-03 at 23 07 08" src="https://github.com/user-attachments/assets/3bb6ec27-2c56-4b0c-8cf9-0d70349b5a5b" />
-<img width="376" height="529" alt="Screenshot 2026-01-03 at 22 54 08" src="https://github.com/user-attachments/assets/75c7a16d-db85-4ced-9dce-bd3414310b2e" />
-<img width="1200" height="471" alt="Screenshot 2026-01-03 at 22 09 42" src="https://github.com/user-attachments/assets/80054984-df6f-4a76-a4d7-b8953f6c2921" />
-<img width="460" height="554" alt="Screenshot 2026-01-03 at 21 55 42" src="https://github.com/user-attachments/assets/ecefced7-474a-4daf-b39b-2fa5ff54790d" />
-<img width="2192" height="772" alt="Screenshot 2026-01-03 at 21 50 48" src="https://github.com/user-attachments/assets/07fbf5d3-a538-4d4c-8516-0993f5cbce37" />
-<img width="4" height="1" alt="Screenshot 2026-01-03 at 21 50 39" src="https://github.com/user-attachments/assets/3bd177ab-5320-43ab-8644-05d5c401aaaf" />
-<img width="2558" height="537" alt="Screenshot 2026-01-03 at 21 13 35" src="https://github.com/user-attachments/assets/8f3793eb-1431-4044-a1d1-95876c598e09" />
-<img width="2557" height="512" alt="Screenshot 2026-01-03 at 21 07 17" src="https://github.com/user-attachments/assets/0eebf470-a81d-49bc-a61d-de2c0aca41ce" />
-<img width="465" height="509" alt="Screenshot 2026-01-03 at 21 03 03" src="https://github.com/user-attachments/assets/58c4de4b-eae5-41ef-8386-92058a9b4b02" />
-<img width="2545" height="455" alt="Screenshot 2026-01-03 at 20 55 10" src="https://github.com/user-attachments/assets/8e7a9195-c532-493e-bacd-a36d5b8967e4" />
-<img width="2553" height="482" alt="Screenshot 2026-01-03 at 20 54 56" src="https://github.com/user-attachments/assets/c534e83e-8ebd-49ff-b284-5a222d711b8b" />
-<img width="643" height="489" alt="Screenshot 2026-01-03 at 20 47 01" src="https://github.com/user-attachments/assets/3e1151bc-430f-41b7-8df7-6a05f988287c" />
-<img width="894" height="573" alt="Screenshot 2026-01-03 at 20 38 15" src="https://github.com/user-attachments/assets/26d51bc9-4ff6-439f-83bf-128348494f42" />
-<img width="653" height="303" alt="Screenshot 2026-01-03 at 20 38 10" src="https://github.com/user-attachments/assets/24896645-229a-4b5e-879e-66ca08dfcc87" />
-<img width="1112" height="584" alt="Screenshot 2026-01-03 at 20 28 43" src="https://github.com/user-attachments/assets/1616728b-4eb4-42db-b80d-852835685fe1" />
-<img width="1160" height="451" alt="Screenshot 2026-01-03 at 19 49 35" src="https://github.com/user-attachments/assets/84582df8-4738-4943-b46e-48c4fbaf5191" />
-<img width="119" height="250" alt="Screenshot 2026-01-03 at 19 41 21" src="https://github.com/user-attachments/assets/ca802bdd-35ae-40d7-a65b-a69fc582c5d9" />
-<img width="222" height="381" alt="Screenshot 2026-01-03 at 19 37 42" src="https://github.com/user-attachments/assets/ed0dc6b4-1604-4603-9734-c2bdec4d852f" />
-<img width="242" height="564" alt="Screenshot 2026-01-03 at 19 37 09" src="https://github.com/user-attachments/assets/61bf946f-0bf7-4042-82c6-b4fcef01c457" />
-<img width="646" height="71" alt="Screenshot 2026-01-03 at 19 35 11" src="https://github.com/user-attachments/assets/51dcf51f-6914-4b88-bee6-bb7a11b3e9f7" />
-<img width="2375" height="1339" alt="Screenshot 2026-01-03 at 19 32 31" src="https://github.com/user-attachments/assets/b5b80784-401f-4b38-b28c-03af8d71d68b" />
-<img width="602" height="241" alt="Screenshot 2026-01-03 at 19 24 32" src="https://github.com/user-attachments/assets/75b486c4-5583-4456-a462-6a2eff58c4fb" />
-<img width="785" height="75" alt="Screenshot 2026-01-03 at 19 22 03" src="https://github.com/user-attachments/assets/03bc080d-02c4-4d63-8339-e208bf769774" />
-<img width="2535" height="1324" alt="Screenshot 2026-01-03 at 19 21 32" src="https://github.com/user-attachments/assets/5044c528-6e3d-45ae-a0b2-52b3641d9bb4" />
-<img width="264" height="320" alt="Screenshot 2026-01-04 at 21 57 36" src="https://github.com/user-attachments/assets/a855b60e-9b40-4d93-9be2-fcfbab437d53" />
-<img width="915" height="1213" alt="Screenshot 2026-01-04 at 00 08 18" src="https://github.com/user-attachments/assets/139b8537-5f32-4ec3-91da-323dbf984ffc" />
-<img width="311" height="90" alt="Screenshot 2026-01-04 at 00 02 07" src="https://github.com/user-attachments/assets/d09f0f12-f62a-44a5-8a2c-2237a89f68b1" />
-<img width="261" height="164" alt="Screenshot 2026-01-04 at 00 01 55" src="https://github.com/user-attachments/assets/22296682-8354-40b2-b921-17ebc6c2665e" />
-
-
-
+<img width="1047" height="870" alt="Screenshot 2026-01-03 at 23 31 21" src="[https://github.com/user-attachments/assets/1b3ba787-9db8-48f5-af81-50691e2def10](https://github.com/user-attachments/assets/1b3ba787-9db8-48f5-af81-50691e2def10)" />
+<img width="918" height="1233" alt="Screenshot 2026-01-03 at 23 18 18" src="[https://github.com/user-attachments/assets/4850a06c-90e8-4f61-a7c3-600a2c41f6f0](https://github.com/user-attachments/assets/4850a06c-90e8-4f61-a7c3-600a2c41f6f0)" />
+<img width="813" height="1179" alt="Screenshot 2026-01-03 at 23 14 07" src="[https://github.com/user-attachments/assets/398edf09-5d32-4b7c-b8fe-5d7922790011](https://github.com/user-attachments/assets/398edf09-5d32-4b7c-b8fe-5d7922790011)" />
+<img width="807" height="1144" alt="Screenshot 2026-01-03 at 23 07 08" src="[https://github.com/user-attachments/assets/3bb6ec27-2c56-4b0c-8cf9-0d70349b5a5b](https://github.com/user-attachments/assets/3bb6ec27-2c56-4b0c-8cf9-0d70349b5a5b)" />
+<img width="376" height="529" alt="Screenshot 2026-01-03 at 22 54 08" src="[https://github.com/user-attachments/assets/75c7a16d-db85-4ced-9dce-bd3414310b2e](https://github.com/user-attachments/assets/75c7a16d-db85-4ced-9dce-bd3414310b2e)" />
+<img width="1200" height="471" alt="Screenshot 2026-01-03 at 22 09 42" src="[https://github.com/user-attachments/assets/80054984-df6f-4a76-a4d7-b8953f6c2921](https://github.com/user-attachments/assets/80054984-df6f-4a76-a4d7-b8953f6c2921)" />
+<img width="460" height="554" alt="Screenshot 2026-01-03 at 21 55 42" src="[https://github.com/user-attachments/assets/ecefced7-474a-4daf-b39b-2fa5ff54790d](https://github.com/user-attachments/assets/ecefced7-474a-4daf-b39b-2fa5ff54790d)" />
+<img width="2192" height="772" alt="Screenshot 2026-01-03 at 21 50 48" src="[https://github.com/user-attachments/assets/07fbf5d3-a538-4d4c-8516-0993f5cbce37](https://github.com/user-attachments/assets/07fbf5d3-a538-4d4c-8516-0993f5cbce37)" />
+<img width="4" height="1" alt="Screenshot 2026-01-03 at 21 50 39" src="[https://github.com/user-attachments/assets/3bd177ab-5320-43ab-8644-05d5c401aaaf](https://github.com/user-attachments/assets/3bd177ab-5320-43ab-8644-05d5c401aaaf)" />
+<img width="2558" height="537" alt="Screenshot 2026-01-03 at 21 13 35" src="[https://github.com/user-attachments/assets/8f3793eb-1431-4044-a1d1-95876c598e09](https://github.com/user-attachments/assets/8f3793eb-1431-4044-a1d1-95876c598e09)" />
+<img width="2557" height="512" alt="Screenshot 2026-01-03 at 21 07 17" src="[https://github.com/user-attachments/assets/0eebf470-a81d-49bc-a61d-de2c0aca41ce](https://github.com/user-attachments/assets/0eebf470-a81d-49bc-a61d-de2c0aca41ce)" />
+<img width="465" height="509" alt="Screenshot 2026-01-03 at 21 03 03" src="[https://github.com/user-attachments/assets/58c4de4b-eae5-41ef-8386-92058a9b4b02](https://github.com/user-attachments/assets/58c4de4b-eae5-41ef-8386-92058a9b4b02)" />
+<img width="2545" height="455" alt="Screenshot 2026-01-03 at 20 55 10" src="[https://github.com/user-attachments/assets/8e7a9195-c532-493e-bacd-a36d5b8967e4](https://github.com/user-attachments/assets/8e7a9195-c532-493e-bacd-a36d5b8967e4)" />
+<img width="2553" height="482" alt="Screenshot 2026-01-03 at 20 54 56" src="[https://github.com/user-attachments/assets/c534e83e-8ebd-49ff-b284-5a222d711b8b](https://github.com/user-attachments/assets/c534e83e-8ebd-49ff-b284-5a222d711b8b)" />
+<img width="643" height="489" alt="Screenshot 2026-01-03 at 20 47 01" src="[https://github.com/user-attachments/assets/3e1151bc-430f-41b7-8df7-6a05f988287c](https://github.com/user-attachments/assets/3e1151bc-430f-41b7-8df7-6a05f988287c)" />
+<img width="894" height="573" alt="Screenshot 2026-01-03 at 20 38 15" src="[https://github.com/user-attachments/assets/26d51bc9-4ff6-439f-83bf-128348494f42](https://github.com/user-attachments/assets/26d51bc9-4ff6-439f-83bf-128348494f42)" />
+<img width="653" height="303" alt="Screenshot 2026-01-03 at 20 38 10" src="[https://github.com/user-attachments/assets/24896645-229a-4b5e-879e-66ca08dfcc87](https://github.com/user-attachments/assets/24896645-229a-4b5e-879e-66ca08dfcc87)" />
+<img width="1112" height="584" alt="Screenshot 2026-01-03 at 20 28 43" src="[https://github.com/user-attachments/assets/1616728b-4eb4-42db-b80d-852835685fe1](https://github.com/user-attachments/assets/1616728b-4eb4-42db-b80d-852835685fe1)" />
+<img width="1160" height="451" alt="Screenshot 2026-01-03 at 19 49 35" src="[https://github.com/user-attachments/assets/84582df8-4738-4943-b46e-48c4fbaf5191](https://github.com/user-attachments/assets/84582df8-4738-4943-b46e-48c4fbaf5191)" />
+<img width="119" height="250" alt="Screenshot 2026-01-03 at 19 41 21" src="[https://github.com/user-attachments/assets/ca802bdd-35ae-40d7-a65b-a69fc582c5d9](https://github.com/user-attachments/assets/ca802bdd-35ae-40d7-a65b-a69fc582c5d9)" />
+<img width="222" height="381" alt="Screenshot 2026-01-03 at 19 37 42" src="[https://github.com/user-attachments/assets/ed0dc6b4-1604-4603-9734-c2bdec4d852f](https://github.com/user-attachments/assets/ed0dc6b4-1604-4603-9734-c2bdec4d852f)" />
+<img width="242" height="564" alt="Screenshot 2026-01-03 at 19 37 09" src="[https://github.com/user-attachments/assets/61bf946f-0bf7-4042-82c6-b4fcef01c457](https://github.com/user-attachments/assets/61bf946f-0bf7-4042-82c6-b4fcef01c457)" />
+<img width="646" height="71" alt="Screenshot 2026-01-03 at 19 35 11" src="[https://github.com/user-attachments/assets/51dcf51f-6914-4b88-bee6-bb7a11b3e9f7](https://github.com/user-attachments/assets/51dcf51f-6914-4b88-bee6-bb7a11b3e9f7)" />
+<img width="2375" height="1339" alt="Screenshot 2026-01-03 at 19 32 31" src="[https://github.com/user-attachments/assets/b5b80784-401f-4b38-b28c-03af8d71d68b](https://github.com/user-attachments/assets/b5b80784-401f-4b38-b28c-03af8d71d68b)" />
+<img width="602" height="241" alt="Screenshot 2026-01-03 at 19 24 32" src="[https://github.com/user-attachments/assets/75b486c4-5583-4456-a462-6a2eff58c4fb](https://github.com/user-attachments/assets/75b486c4-5583-4456-a462-6a2eff58c4fb)" />
+<img width="785" height="75" alt="Screenshot 2026-01-03 at 19 22 03" src="[https://github.com/user-attachments/assets/03bc080d-02c4-4d63-8339-e208bf769774](https://github.com/user-attachments/assets/03bc080d-02c4-4d63-8339-e208bf769774)" />
+<img width="2535" height="1324" alt="Screenshot 2026-01-03 at 19 21 32" src="[https://github.com/user-attachments/assets/5044c528-6e3d-45ae-a0b2-52b3641d9bb4](https://github.com/user-attachments/assets/5044c528-6e3d-45ae-a0b2-52b3641d9bb4)" />
+<img width="264" height="320" alt="Screenshot 2026-01-04 at 21 57 36" src="[https://github.com/user-attachments/assets/a855b60e-9b40-4d93-9be2-fcfbab437d53](https://github.com/user-attachments/assets/a855b60e-9b40-4d93-9be2-fcfbab437d53)" />
+<img width="915" height="1213" alt="Screenshot 2026-01-04 at 00 08 18" src="[https://github.com/user-attachments/assets/139b8537-5f32-4ec3-91da-323dbf984ffc](https://github.com/user-attachments/assets/139b8537-5f32-4ec3-91da-323dbf984ffc)" />
+<img width="311" height="90" alt="Screenshot 2026-01-04 at 00 02 07" src="[https://github.com/user-attachments/assets/d09f0f12-f62a-44a5-8a2c-2237a89f68b1](https://github.com/user-attachments/assets/d09f0f12-f62a-44a5-8a2c-2237a89f68b1)" />
+<img width="261" height="164" alt="Screenshot 2026-01-04 at 00 01 55" src="[https://github.com/user-attachments/assets/22296682-8354-40b2-b921-17ebc6c2665e](https://github.com/user-attachments/assets/22296682-8354-40b2-b921-17ebc6c2665e)" />
