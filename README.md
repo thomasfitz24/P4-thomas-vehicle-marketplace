@@ -1,9 +1,4 @@
-<img width="1536" height="1024" alt="wireframe " src="https://github.com/user-attachments/assets/1eeb379c-e436-43bf-9596-27c522be7ed8" />
-Here is the updated **README.md** file, formatted and ready to use. I have integrated the **Assessor Login** details into the *Authentication* section and formatted the **Debugging Summary** as a dedicated technical section near the end of the document.
 
-**This addition aligns with the ****Distinction Criteria M(vi)** from your qualification specification^^, which requires documenting bug fixes and technical challenges.
-
----
 
 # Vehicle Marketplace – Django Full Stack Application
 
