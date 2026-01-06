@@ -65,12 +65,6 @@ CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
-CLOUDINARY_STORAGE = {
-    "CLOUD_NAME": "dlkst7boo",
-    "API_KEY": "<397568769876832>",
-    "API_SECRET": "<C40qTxWIZvZMt9lh4uEP03sVF3w>",
-}
-
 
 if "DATABASE_URL" in os.environ:
     DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
@@ -101,7 +95,6 @@ STATICFILES_FINDERS = [
 ]
 
 MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
 
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
