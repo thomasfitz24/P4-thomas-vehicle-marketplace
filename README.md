@@ -9,25 +9,24 @@ Here is the updated **README.md** file, formatted and ready to use. I have integ
 
 ## Table of Contents
 
-1. [Project Overview](https://www.google.com/search?q=%23project-overview&authuser=3)
-2. [Project Rationale](https://www.google.com/search?q=%23project-rationale&authuser=3)
-3. [Project Purpose](https://www.google.com/search?q=%23project-purpose&authuser=3)
-4. [Target Audience](https://www.google.com/search?q=%23target-audience&authuser=3)
-5. [User Experience (UX)](https://www.google.com/search?q=%23user-experience-ux&authuser=3)
-6. [Accessibility](https://www.google.com/search?q=%23accessibility&authuser=3)
-7. [Wireframes](https://www.google.com/search?q=%23wireframes&authuser=3)
-8. [User Stories](https://www.google.com/search?q=%23user-stories&authuser=3)
-9. [Features](https://www.google.com/search?q=%23features&authuser=3)
-10. [Data Model](https://www.google.com/search?q=%23data-model&authuser=3)
-11. [CRUD Functionality](https://www.google.com/search?q=%23crud-functionality&authuser=3)
-12. [Authentication &amp; Authorisation](https://www.google.com/search?q=%23authentication--authorisation&authuser=3)
-13. [E-commerce &amp; Payments](https://www.google.com/search?q=%23e-commerce--payments&authuser=3)
-14. [Testing](https://www.google.com/search?q=%23testing&authuser=3)
-15. [Security](https://www.google.com/search?q=%23security&authuser=3)
-16. [Critical Development Issues &amp; Debugging](https://www.google.com/search?q=%23critical-development-issues--debugging&authuser=3)
-17. [Technologies Used](https://www.google.com/search?q=%23technologies-used&authuser=3)
-18. [Version Control &amp; Git Commit History](https://www.google.com/search?q=%23version-control--git-commit-history&authuser=3)
-
+1. [Project Overview](#project-overview)
+2. [Project Rationale](#project-rationale)
+3. [Project Purpose](#project-purpose)
+4. [Target Audience](#target-audience)
+5. [User Experience (UX)](#user-experience-ux)
+6. [Accessibility](#accessibility)
+7. [Wireframes](#wireframes)
+8. [User Stories](#user-stories)
+9. [Features](#features)
+10. [Data Model](#data-model)
+11. [CRUD Functionality](#crud-functionality)
+12. [Authentication & Authorisation](#authentication--authorisation)
+13. [E-commerce & Payments](#e-commerce--payments)
+14. [Testing](#testing)
+15. [Security](#security)
+16. [Critical Development Issues & Debugging](#critical-development-issues--debugging)
+17. [Technologies Used](#technologies-used)
+18. [Version Control & Git Commit History](#version-control--git-commit-history)
 ---
 
 ## Project Overview
