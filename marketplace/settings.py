@@ -65,6 +65,8 @@ CLOUDINARY_URL = os.environ.get("CLOUDINARY_URL")
 
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
+CLOUDINARY_SECURE = True
+
 
 if "DATABASE_URL" in os.environ:
     DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
