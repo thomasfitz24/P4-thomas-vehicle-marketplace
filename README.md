@@ -1,9 +1,4 @@
 
-Here is the updated **README.md** file, formatted and ready to use. I have integrated the **Assessor Login** details into the *Authentication* section and formatted the **Debugging Summary** as a dedicated technical section near the end of the document.
-
-**This addition aligns with the ****Distinction Criteria M(vi)** from your qualification specification^^, which requires documenting bug fixes and technical challenges.
-
----
 
 # Vehicle Marketplace – Django Full Stack Application
 
@@ -112,6 +107,8 @@ Accessibility considerations were included throughout development, including:
 Wireframes were created during the planning stage to establish layout structure, navigation flow, and content hierarchy before development began.
 
 ### Images
+<img width="1536" height="1024" alt="wireframe " src="https://github.com/user-attachments/assets/401c47f5-90a4-4911-b483-48bfb496950d" />
+
 
 ---
 
@@ -214,10 +211,14 @@ For assessment and testing purposes, a pre-registered user account is available:
 * Success and cancellation pages
 
 ## Images
+<img width="507" height="766" alt="Screenshot 2026-01-06 at 22 46 34" src="https://github.com/user-attachments/assets/353bdc4a-87e3-4eb1-94e6-30731e1c8f06" />
+<img width="502" height="775" alt="Screenshot 2026-01-06 at 22 45 20" src="https://github.com/user-attachments/assets/2b1661cc-1cb9-48fe-b624-09af994d96d3" />
+<img width="519" height="775" alt="Screenshot 2026-01-06 at 22 45 14" src="https://github.com/user-attachments/assets/b8d3fea7-d562-4fd8-bc44-6b7fb1ff8e67" />
 
 ---
 
-## Testing
+## Testing!
+
 
 ### Manual Testing
 
@@ -227,13 +228,26 @@ For assessment and testing purposes, a pre-registered user account is available:
 ### Responsiveness Testing
 
 * Desktop, tablet, and mobile layouts
+<img width="366" height="448" alt="Screenshot 2026-01-06 at 22 46 41" src="https://github.com/user-attachments/assets/37176089-8962-4b94-8d95-b7077df563ed" />
+<img width="507" height="766" alt="Screenshot 2026-01-06 at 22 46 34" src="https://github.com/user-attachments/assets/aff961ff-dd5f-4c3d-94f5-dd8eae831fa8" />
+<img width="502" height="775" alt="Screenshot 2026-01-06 at 22 45 20" src="https://github.com/user-attachments/assets/5727d2d8-f550-48a8-8958-fcec0d17dc80" />
+<img width="519" height="775" alt="Screenshot 2026-01-06 at 22 45 14" src="https://github.com/user-attachments/assets/ebda8ac5-db21-4399-a598-a39ba5f6c197" />
+<img width="701" height="810" alt="Screenshot 2026-01-06 at 22 45 05" src="https://github.com/user-attachments/assets/a35d83f7-1ea0-4cb4-9b67-036adbb3cf2b" />
+<img width="787" height="823" alt="Screenshot 2026-01-06 at 22 44 56" src="https://github.com/user-attachments/assets/a27a65c7-bb6e-4a37-bdad-03663b587870" />
+<img width="1465" height="816" alt="Screenshot 2026-01-06 at 22 44 31" src="https://github.com/user-attachments/assets/bba8ef2a-7c66-4d5b-b277-f4d6d6cfa05e" />
+<img width="1464" height="835" alt="Screenshot 2026-01-06 at 22 44 18" src="https://github.com/user-attachments/assets/81e1a1d9-456d-445d-82be-4011eec8c730" />
+
 
 ### Validation Testing
 
 * Required fields enforced
-
-### Images
-
+<img width="1077" height="725" alt="Screenshot 2026-01-06 at 22 36 09" src="https://github.com/user-attachments/assets/a0569b84-175e-4796-98cf-785a6d558f99" />
+<img width="1207" height="501" alt="Screenshot 2026-01-06 at 22 34 28" src="https://github.com/user-attachments/assets/db190235-08d4-493c-80e4-462aad49984a" />
+<img width="1067" height="633" alt="Screenshot 2026-01-06 at 22 33 58" src="https://github.com/user-attachments/assets/9d71d10a-b1a4-42ec-97a1-c37c29abe5f8" />
+<img width="1135" height="469" alt="Screenshot 2026-01-06 at 22 33 36" src="https://github.com/user-attachments/assets/ed911976-d368-4971-b897-9b8c1d3f7cae" />
+<img width="1146" height="586" alt="Screenshot 2026-01-06 at 22 32 55" src="https://github.com/user-attachments/assets/a02f748a-abf9-4394-bcea-19e1a5240b05" />
+<img width="1264" height="625" alt="Screenshot 2026-01-06 at 22 32 36" src="https://github.com/user-attachments/assets/be27f0bd-a496-4a48-a1be-cbf3f010a8bf" />
+<img width="1218" height="584" alt="Screenshot 2026-01-06 at 22 31 53" src="https://github.com/user-attachments/assets/27d4101d-51a5-4dac-9d1a-6bef4483352a" />
 
 
 ## Security
