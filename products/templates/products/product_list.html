@@ -31,7 +31,7 @@
                     {% endif %}
 
                     {% if product.image %}
-                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                        <img src="{{ product.image.url|cut:'http:' }}" alt="{{ product.name }}">
                     {% else %}
                         <img src="{% static 'images/placeholder-car.jpg' %}" alt="Vehicle placeholder">
                     {% endif %}
